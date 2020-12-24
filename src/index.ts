@@ -19,8 +19,6 @@ const main = async () => {
     // const posts = await orm.em.find(Post, {});
     // console.log(posts);
 
-    // console.log('----------sql2------------');
-    // await orm.em.nativeInsert(Post, {title: 'my second post'});
     const app = express();
 
     const apolloServer = new ApolloServer({
